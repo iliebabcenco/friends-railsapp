@@ -10,15 +10,19 @@
 
         <%= link_to 'Home', root_path, class:"nav-link"  %>
         </li>
+
+        <li class="nav-item">
+          <%= link_to "Show Friends", friends_path, class:"nav-link" %>
+        </li>
+
+        <li class="nav-item">
+          <%= link_to "Add new friend", new_friend_path, class:"nav-link" %>
+        </li>
+       
         <li class="nav-item">
           <%= link_to "About us", home_about_path, class:"nav-link" %>
         </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link2</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link3</a>
-        </li>
+
       </ul>
       <form class="d-flex">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
