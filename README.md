@@ -1,24 +1,61 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Things you may want to cover:
+# Ruby on Rails Friends Project
 
-* Ruby version
+This is the project from freeCodeCamp course which I did for learning purposes.
 
-* System dependencies
+## Description
 
-* Configuration
+This project includes basics CRUD actions that work with sqlite. It can create, update, delete friends. The friends table shows all the friends of a particular user.
+So it has a full authentification process for registration, changes user data, or deletes it.
 
-* Database creation
+## Built With
 
-* Database initialization
+- Ruby on Rails
+- Bootstrap
 
-* How to run the test suite
+## How it looks
 
-* Services (job queues, cache servers, search engines, etc.)
+## There are some pages from that project:
 
-* Deployment instructions
+### Add new friends page
 
-* ...
+![](app/assets/images/1.png)
+
+### Login page
+
+![](app/assets/images/2.png)
+
+### Edit user page
+
+![](app/assets/images/3.png)
+
+### Friends page
+
+![](app/assets/images/4.png)
+
+### Deployment
+
+This application is deployed on [Heroku](https://www.heroku.com/)
+
+## Authors
+
+👤 **Ilie Babcenco**
+
+- GitHub: [@iliebabcenco](https://github.com/iliebabcenco)
+- LinkedIn: [@iliebabcenco](https://www.linkedin.com/in/ilie-babcenco-72459a1b1/)
+- Twitter: [@iliebabcenco](https://twitter.com/BabcencoIlie)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+If you want to contribute, you can clone this project or fork it.
+
+If you found an issue, feel free to check the [issues page](https://github.com/iliebabcenco/my-telegram-bot/issues).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
