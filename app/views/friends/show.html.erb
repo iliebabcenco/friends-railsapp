@@ -23,5 +23,6 @@
   </p>
 
   <%= link_to 'Edit', edit_friend_path(@friend), class:"btn btn-secondary mt-2" %>
+  <%= link_to 'Delete', @friend, method: :delete, data: { confirm: 'Are you sure?' }, class:"btn btn-danger mt-2" %>
   <%= link_to 'Back', friends_path, class:"btn btn-secondary mt-2" %>
 </div>
