@@ -1,4 +1,8 @@
+<div class="card m-4">
+  <div class="card-header">
 <h2 class="m-4">Edit <%= resource_name.to_s.humanize %></h2>
+  </div>
+  <div class="card-body">
 
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name), html: { method: :put }) do |f| %>
   <%= render "devise/shared/error_messages", resource: resource %>
@@ -13,7 +17,7 @@
 
   <div class="field m-3">
     <i>(leave blank if you don't want to change it)</i><br />
-    <%= f.password_field :password, autocomplete: "new-password", class:"form-control w-50", placeholder:"Password confirmation"  %>
+    <%= f.password_field :password, autocomplete: "new-password", class:"form-control w-50", placeholder:"Password"  %>
     <% if @minimum_password_length %>
       <em><%= @minimum_password_length %> characters minimum</em>
     <% end %>
@@ -32,10 +36,17 @@
   <div class="actions m-3">
     <%= f.submit "Update", class:"btn btn-secondary" %>
   </div>
+  </div>
 <% end %>
 
-<h3 class="m-3">Cancel my account</h3>
+<div class="card m-4">
+  <div class="card-header">
+    <h3>Cancel my account</h3>
+  </div>
+  <div class="card-body">
+    <p class="card-text">Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete , class:"btn btn-danger"%></p>
+  </div>
+</div>
 
-<p class="mb-2 mx-3">Unhappy? <%= button_to "Cancel my account", registration_path(resource_name), data: { confirm: "Are you sure?" }, method: :delete , class:"btn btn-secondary mx-3"%></p>
 
-<%= link_to "Back", :back %>
+<%= link_to "Back", :back, class:"m-3" %>
