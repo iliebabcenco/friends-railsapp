@@ -1,7 +1,3 @@
-# README
-
-![](https://img.shields.io/badge/Microverse-blueviolet)
-
 # Ruby on Rails Friends Project
 
 This is the project from freeCodeCamp course which I did for learning purposes.
@@ -54,7 +50,7 @@ Contributions, issues, and feature requests are welcome!
 
 If you want to contribute, you can clone this project or fork it.
 
-If you found an issue, feel free to check the [issues page](https://github.com/iliebabcenco/my-telegram-bot/issues).
+If you found an issue, feel free to check the [issues page](https://github.com/iliebabcenco/friends-railsapp/issues).
 
 ## Show your support
 
