@@ -1,4 +1,4 @@
-<div class="card m-4">
+<div class="card w-50 m-auto my-5">
   <div class="card-header">
   <h2 class="m-4">Sign up</h2>
   </div>
@@ -8,7 +8,7 @@
   <%= render "devise/shared/error_messages", resource: resource %>
 
   <div class="field m-3">
-    <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"form-control w-50", placeholder:"Email" %>
+    <%= f.email_field :email, autofocus: true, autocomplete: "email", class:"form-control", placeholder:"Email" %>
   </div>
 
   <div class="field m-3">
@@ -16,11 +16,11 @@
     <% if @minimum_password_length %>
     <em>(<%= @minimum_password_length %> characters minimum)</em>
     <% end %><br />
-    <%= f.password_field :password, autocomplete: "new-password", class:"form-control w-50", placeholder:"Password" %>
+    <%= f.password_field :password, autocomplete: "new-password", class:"form-control", placeholder:"Password" %>
   </div>
 
   <div class="field m-3">
-    <%= f.password_field :password_confirmation, autocomplete: "new-password", class:"form-control w-50", placeholder:"Password confirmation" %>
+    <%= f.password_field :password_confirmation, autocomplete: "new-password", class:"form-control", placeholder:"Password confirmation" %>
   </div>
 
   <div class="actions">

@@ -1,3 +1,4 @@
+
 <%= form_with(model: friend) do |form|%>
   <% if friend.errors.any? %>
     <div id="error_explanation">
@@ -12,23 +13,23 @@
   <% end %>
 
   <div class="field m-3">
-    <%= form.text_field :first_name, class:"form-control w-50", placeholder:"First Name" %>
+    <%= form.text_field :first_name, class:"form-control", placeholder:"First Name" %>
   </div>
 
   <div class="field m-3">
-    <%= form.text_field :last_name, class:"form-control w-50", placeholder:"Last Name" %>
+    <%= form.text_field :last_name, class:"form-control", placeholder:"Last Name" %>
   </div>
 
   <div class="field m-3">
-    <%= form.text_field :email, class:"form-control w-50", placeholder:"Email" %>
+    <%= form.text_field :email, class:"form-control", placeholder:"Email" %>
   </div>
 
   <div class="field m-3">
-    <%= form.text_field :phone, class:"form-control w-50", placeholder:"Phone number" %>
+    <%= form.text_field :phone, class:"form-control", placeholder:"Phone number" %>
   </div>
 
   <div class="field m-3">
-    <%= form.text_field :github, class:"form-control w-50", placeholder:"Github link" %>
+    <%= form.text_field :github, class:"form-control", placeholder:"Github link" %>
   </div>
 
   <div class="actions">
