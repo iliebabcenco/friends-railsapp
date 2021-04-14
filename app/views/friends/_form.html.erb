@@ -32,6 +32,12 @@
     <%= form.text_field :github, class:"form-control", placeholder:"Github link" %>
   </div>
 
+  <div class="field m-3">
+    <%= form.number_field :user_id, id: :friend_user_id, type: :hidden, class:"form-control", value: current_user.id %>
+  </div>
+
+  
+
   <div class="actions">
     <%= form.submit class:"btn btn-secondary  m-3" %>
   </div>
